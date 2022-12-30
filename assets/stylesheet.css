@@ -1,0 +1,85 @@
+* body{
+padding: 5px;
+margin: auto;
+background: black;
+min-height: 150vh;
+}
+
+
+h1{
+    font-family: serif;
+    text-align: left;
+    color: blueviolet;
+    margin: 40px;
+}
+/* Transition to change colour in 1.25s */
+h1:hover{
+color: aliceblue;
+transition: 1.25s;
+}
+/* The words linked to this class are aligned to the center */
+.nav-link{
+    margin: 90px;
+    color: azure;
+    font-family: serif;
+}
+/* Once you hover over the text will change colour and words will become capital letters */
+.nav-link:hover{
+    color: blueviolet;
+    transition: 1.25s;
+    text-transform: uppercase;
+}
+
+/* This shows the class row and has a margin and padding to space out the words */
+.row{
+    color: blueviolet;
+    padding: 40px;
+    margin: 40px;
+    justify-content: space-between;
+    font-family: serif;
+}
+
+.display-4{
+    color: blueviolet;
+ font-weight:bolder;
+}
+
+.display-4:hover{
+    color: black;
+}
+
+.lead{
+    font: bold;
+    font-weight: bold;
+    font-family:serif
+}
+
+.jumbotron{
+
+    display: flex;
+    align-items: center;
+  
+    
+}
+
+.card a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    border-color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+    font-family: serif;
+}
+
+.card1{background-image: url(./images/HTML5-Processing.png);
+font-family: serif;
+justify-items: center;
+margin: 300px;
+transform: scale(100%);
+font-weight: bolder;
+color: white;
+}
+
+.card1:hover{
+transform: scale(200%);
+}
