@@ -12,3 +12,4 @@ To link the Bootstrap to my project I used this link:
 To check the deployed website click this link. This website is suitable for any screen size.
 https://strojann.github.io/bootstrap-portfolio/
 
+License: MIT
